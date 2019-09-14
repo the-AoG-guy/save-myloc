@@ -7,3 +7,20 @@ So let say you had to visit your vacation house near the beach and you don’t r
 
 ![Save MyLoc](https://i.ibb.co/N9ZWp0Q/Save-My-Loc-Customizable-Location-Storage.png)
 
+## Setup Instructions
+
+
+1.  Use the  [Actions on Google Console](https://console.actions.google.com/)  to add a new project with a name of your choosing and click  _Create Project_.
+2.  Scroll down to the  _More Options_  section, and click on the  _Conversational_  card.
+3.  On the left navigation menu under  _BUILD_, click on  _Actions_. Click on  _Add Your First Action_  and choose your app's language(s).
+4.  Select  _Custom intent_, click  _BUILD_. This will open a Dialogflow console. Click  _CREATE_.
+5.  Click on the gear icon to see the project settings.
+6.  Select  _Export and Import_.
+7.  Select  _Restore from zip_. Follow the directions to restore from the  `Save-MyLoc.zip`  file in this repo.
+8.  Deploy the fulfillment webhook provided in the  `functions`  folder using  [Google Cloud Functions for Firebase](https://firebase.google.com/docs/functions/):
+    -  Follow the instructions to  [set up and initialize Firebase SDK for Cloud Functions](https://firebase.google.com/docs/functions/get-started#set_up_and_initialize_functions_sdk). Make sure to select the project that you have previously generated in the Actions on Google Console and to reply  `N`  when asked to overwrite existing files by the Firebase CLI.
+    -  Run  `firebase deploy --only functions`  and take note of the endpoint where the fulfillment webhook has been published. It should look like  `Function URL : https://${REGION}-${PROJECT}.cloudfunctions.net/dialogflowFirebaseFulfillment`. If the Function URL doesn't show, you can always check at the  [Firebase console](https://console.firebase.google.com/).
+9.  Go back to the Dialogflow console and select  _Fulfillment_  from the left navigation menu. Enable  _Webhook_, set the value of  _URL_  to the  `Function URL`  from the previous step, then click  _Save_.
+10.  Select  _Integrations_  from the left navigation menu and open the  _Integration Settings_  menu for Actions on Google.
+11.  Enable  _Auto-preview changes_  and Click  _Test_. This will open the Actions on Google simulator.
+12.  Type  `Talk to my test app`  in the simulator, or say  `OK Google, talk to my test app`  to any Actions on Google enabled device signed into your developer account.
