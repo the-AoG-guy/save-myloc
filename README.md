@@ -29,10 +29,19 @@ This Action is currently deployed. You can test it directly on your Google Assis
 11.  Enable  _Auto-preview changes_  and Click  _Test_. This will open the Actions on Google simulator.
 12.  Type  `Talk to my test app`  in the simulator, or say  `OK Google, talk to my test app`  to any Actions on Google enabled device signed into your developer account.  
 
+## Current Features
+
+- Save a location with a custom name. Location precision is upto 10<sup>th</sup> decimal place.
+- Suggested common names of places with custom image and quotes.
+- Save a place without a name. Mark the name tag as "Untitled Place".
+- View a list of all saved places.
+- View the saved place directly on the Google Maps app. 
+- Implicit calls to the Action, which can save a place in just one steps.
+- Random easter eggs included. Try to find it all.
+
 ## Sample Screenshots
 
 <img src="https://i.ibb.co/xmD4Sh6/Picture2.png" alt="Save a Location" style="float: left; margin-right: 20px;" width='250'/> <img src="https://i.ibb.co/Lg8XbJz/Picture1.png" alt="View that Location" style="float: left; margin-right: 20px;" width='250'/>  
-
 
 ## Build
 
