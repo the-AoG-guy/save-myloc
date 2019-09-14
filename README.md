@@ -23,4 +23,14 @@ So let say you had to visit your vacation house near the beach and you don’t r
 9.  Go back to the Dialogflow console and select  _Fulfillment_  from the left navigation menu. Enable  _Webhook_, set the value of  _URL_  to the  `Function URL`  from the previous step, then click  _Save_.
 10.  Select  _Integrations_  from the left navigation menu and open the  _Integration Settings_  menu for Actions on Google.
 11.  Enable  _Auto-preview changes_  and Click  _Test_. This will open the Actions on Google simulator.
-12.  Type  `Talk to my test app`  in the simulator, or say  `OK Google, talk to my test app`  to any Actions on Google enabled device signed into your developer account.
+12.  Type  `Talk to my test app`  in the simulator, or say  `OK Google, talk to my test app`  to any Actions on Google enabled device signed into your developer account.  
+
+## License
+![](https://img.shields.io/github/license/the-AoG-guy/save-myloc)
+
+GNU AFFERO GENERAL PUBLIC LICENSE  
+Version 3, 19 November 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. [FSF](https://fsf.org/)  
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
