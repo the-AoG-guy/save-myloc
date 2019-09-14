@@ -7,7 +7,11 @@ So let say you had to visit your vacation house near the beach and you don’t r
 
 ![Save MyLoc](https://i.ibb.co/N9ZWp0Q/Save-My-Loc-Customizable-Location-Storage.png)
 
-## Setup Instructions
+## Testing Instruction
+
+This Action is currently deployed. You can test it directly on your Google Assistant by saying, `Talk to Save MyLoc`.
+
+## Setup Instructions - For Future Developement
 
 
 1.  Use the  [Actions on Google Console](https://console.actions.google.com/)  to add a new project with a name of your choosing and click  _Create Project_.
@@ -24,6 +28,14 @@ So let say you had to visit your vacation house near the beach and you don’t r
 10.  Select  _Integrations_  from the left navigation menu and open the  _Integration Settings_  menu for Actions on Google.
 11.  Enable  _Auto-preview changes_  and Click  _Test_. This will open the Actions on Google simulator.
 12.  Type  `Talk to my test app`  in the simulator, or say  `OK Google, talk to my test app`  to any Actions on Google enabled device signed into your developer account.  
+
+## Build
+
+![](https://img.shields.io/badge/collaboration-open-purple)  ![](https://img.shields.io/badge/suggestion-open-purple) ![](https://img.shields.io/badge/build-complete-blue.svg?logo=appveyor) ![](https://img.shields.io/badge/current%20status-not%20under%20developement-red?logo=visual-studio-code)
+
+This was a passion project built by [Amrit Dash](https://about.me/amritdash) and [Manish Rath](https://about.me/manishrath) with lots of scope to improve. If anyone wants to take up the build and add features, modify existing code or simply make it more modular. You are free to do it.  
+
+Feel free to contact us if you want any help understanding some parts of the code or simply want to re deploy the Action after making modifications. We can add you as an collaborator to the Actions project.
 
 ## License
 ![](https://img.shields.io/github/license/the-AoG-guy/save-myloc)
