@@ -31,7 +31,7 @@ This Action is currently deployed. You can test it directly on your Google Assis
 
 ## Sample Screenshots
 
-<img src="https://i.ibb.co/xmD4Sh6/Picture2.png" alt="Save a Location" style="float: left; margin-right: 20px;" width='300'/> <img src="https://i.ibb.co/Lg8XbJz/Picture1.png" alt="View that Location" style="float: left; margin-right: 20px;" width='300'/>  
+<img src="https://i.ibb.co/xmD4Sh6/Picture2.png" alt="Save a Location" style="float: left; margin-right: 20px;" width='250'/> <img src="https://i.ibb.co/Lg8XbJz/Picture1.png" alt="View that Location" style="float: left; margin-right: 20px;" width='250'/>  
 
 
 ## Build
