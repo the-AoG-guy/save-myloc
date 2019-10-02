@@ -14,8 +14,6 @@
 
 ## Build
 
-![](https://img.shields.io/badge/collaboration-open-purple)  ![](https://img.shields.io/badge/suggestion-open-purple) ![](https://img.shields.io/badge/build-complete-blue.svg?logo=appveyor) ![](https://img.shields.io/badge/current%20status-not%20under%20developement-red?logo=visual-studio-code)
-
 This was a passion project built by [Amrit Dash](https://about.me/amritdash) and [Manish Rath](https://about.me/manishrath) with lots of scope to improve. If anyone wants to take up the build and add features, modify existing code or simply make it more modular. You are free to do it.  
 
 Feel free to contact us if you want any help understanding some parts of the code or simply want to re deploy the Action after making modifications. We can add you as an collaborator to the Actions project.
