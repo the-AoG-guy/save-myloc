@@ -9,7 +9,7 @@ So let say you had to visit your vacation house near the beach and you don’t r
 
 ## Testing Instruction
 
-This Action is currently deployed. You can test it directly on your Google Assistant by saying, `Talk to Save MyLoc`.
+This Action is currently deployed. You can test it directly on your Google Assistant by saying, `Talk to Save MyLoc`. This can also be searched from the Actions Explore Library page at https://assistant.google.com/explore. 
 
 ## Setup Instructions - For Future Developement
 
